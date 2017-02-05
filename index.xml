@@ -2,20 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Patrick Weston</title>
-    <link>http://patrickfweston.com/blog/index.xml</link>
+    <link>http://patrickfweston.com/index.xml</link>
     <description>Recent content on Patrick Weston</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 04 Feb 2017 10:11:46 -0600</lastBuildDate>
-    <atom:link href="http://patrickfweston.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://patrickfweston.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>This is a test post</title>
-      <link>http://patrickfweston.com/blog/post/test/</link>
+      <link>http://patrickfweston.com/post/test/</link>
       <pubDate>Sat, 04 Feb 2017 10:11:46 -0600</pubDate>
       
-      <guid>http://patrickfweston.com/blog/post/test/</guid>
-      <description></description>
+      <guid>http://patrickfweston.com/post/test/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci ante, posuere scelerisque ultrices nec, dapibus sollicitudin erat. Suspendisse elementum malesuada augue ac rutrum. Morbi accumsan, eros sed fringilla egestas, sapien ipsum aliquam nunc, ac finibus nibh urna vitae risus. Ut hendrerit, neque varius efficitur fringilla, tortor tellus dictum magna, sed eleifend turpis nisi tristique quam. Pellentesque rhoncus, sem non varius ullamcorper, urna est mollis erat, id posuere turpis tortor auctor ligula. Nulla facilisi. Sed luctus pellentesque tortor id efficitur. Vivamus a augue elementum, pharetra arcu ut, tempus urna. Proin at finibus mauris. Pellentesque ut egestas lacus.&lt;/p&gt;
+
+&lt;p&gt;Integer sit amet pretium leo. Duis venenatis ornare mauris, ac ullamcorper sapien rutrum a. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec dignissim nisl et est egestas, in ultrices leo venenatis. Proin nec lacus ac mauris congue sagittis eu vel lorem. Proin mollis, diam eget vestibulum tempus, quam libero dignissim justo, in posuere tortor nibh a nisi. Donec semper libero vitae tellus gravida ultricies. Nullam gravida eros ut enim blandit elementum. Nunc auctor euismod ipsum et gravida. Vestibulum id vehicula augue.&lt;/p&gt;
+
+&lt;p&gt;Proin nibh mi, ornare accumsan tortor ac, pretium dapibus quam. Sed tristique interdum finibus. Donec condimentum tincidunt lorem sit amet vehicula. Donec augue lacus, placerat at magna nec, vulputate tincidunt orci. In congue sollicitudin tortor at volutpat. Curabitur finibus consequat porttitor. Donec vulputate feugiat interdum. Aenean molestie tellus auctor sapien pulvinar mollis. Quisque mattis tortor sed condimentum sagittis. Nunc a ante vel eros maximus iaculis at quis augue. Pellentesque feugiat nisl nisl, eget luctus odio iaculis non.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Sed congue dolor eu tortor pulvinar condimentum.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Aliquam ipsum arcu, pellentesque eu felis vitae, malesuada tempus erat. Sed fermentum, diam sed vehicula dapibus, nisl diam cursus velit, quis molestie velit nisl vitae massa. In dictum, quam at dictum vestibulum, dolor dui suscipit leo, vitae porta libero risus mattis eros. Nunc sed libero pellentesque, viverra velit a, maximus nisl. Donec id erat fermentum, ornare magna lobortis, tristique augue. Fusce at massa nec nisl sodales facilisis. Donec feugiat mauris quis odio accumsan, ut iaculis augue facilisis. Maecenas congue condimentum sodales. Sed ac ornare sapien. Aenean pretium tristique gravida.&lt;/p&gt;
+
+&lt;p&gt;Sed diam elit, molestie eget nisl at, malesuada vulputate purus. Praesent sagittis purus vel turpis molestie, sit amet euismod mi mollis. Donec posuere purus eu scelerisque pretium. Quisque porta lacus nulla, eget accumsan augue gravida vitae. Pellentesque diam lectus, auctor a ornare in, ornare laoreet sem. Nam hendrerit, tortor id mattis fermentum, tellus purus luctus nunc, quis auctor felis dolor id odio. Aliquam ac ultricies tortor. Praesent pellentesque enim nibh, eget condimentum libero viverra et. Sed non tempus felis. Duis ligula sapien, maximus sit amet faucibus ac, mattis eget nisi. Aenean malesuada et arcu sed vehicula. Quisque aliquet id ligula molestie ullamcorper. Cras non elit ut purus imperdiet fermentum. Nulla tempus, turpis sit amet pretium sodales, dolor ipsum congue odio, mollis dictum eros arcu at tortor. Phasellus quis felis interdum, tincidunt justo et, elementum mauris. Nulla tempus nulla orci, ultricies venenatis justo finibus non.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
