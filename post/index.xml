@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Patrick Weston</title>
-    <link>https://patrickfweston.github.io/blog/post/index.xml</link>
+    <link>http://blog.patrickfweston.com/post/index.xml</link>
     <description>Recent content in Posts on Patrick Weston</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 04 Feb 2017 10:11:46 -0600</lastBuildDate>
-    <atom:link href="https://patrickfweston.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://blog.patrickfweston.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>This is a test post</title>
-      <link>https://patrickfweston.github.io/blog/post/test/</link>
+      <link>http://blog.patrickfweston.com/post/test/</link>
       <pubDate>Sat, 04 Feb 2017 10:11:46 -0600</pubDate>
       
-      <guid>https://patrickfweston.github.io/blog/post/test/</guid>
+      <guid>http://blog.patrickfweston.com/post/test/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci ante, posuere scelerisque ultrices nec, dapibus sollicitudin erat. Suspendisse elementum malesuada augue ac rutrum. Morbi accumsan, eros sed fringilla egestas, sapien ipsum aliquam nunc, ac finibus nibh urna vitae risus. Ut hendrerit, neque varius efficitur fringilla, tortor tellus dictum magna, sed eleifend turpis nisi tristique quam. Pellentesque rhoncus, sem non varius ullamcorper, urna est mollis erat, id posuere turpis tortor auctor ligula. Nulla facilisi. Sed luctus pellentesque tortor id efficitur. Vivamus a augue elementum, pharetra arcu ut, tempus urna. Proin at finibus mauris. Pellentesque ut egestas lacus.&lt;/p&gt;
 
 &lt;p&gt;Integer sit amet pretium leo. Duis venenatis ornare mauris, ac ullamcorper sapien rutrum a. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec dignissim nisl et est egestas, in ultrices leo venenatis. Proin nec lacus ac mauris congue sagittis eu vel lorem. Proin mollis, diam eget vestibulum tempus, quam libero dignissim justo, in posuere tortor nibh a nisi. Donec semper libero vitae tellus gravida ultricies. Nullam gravida eros ut enim blandit elementum. Nunc auctor euismod ipsum et gravida. Vestibulum id vehicula augue.&lt;/p&gt;
