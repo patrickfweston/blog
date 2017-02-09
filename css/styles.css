@@ -216,74 +216,75 @@ small, .blog__back {
   font-family: "Oswald", "Helevetica", "Helevetica Neue", "Arial";
   letter-spacing: 1px;
   color: #a6a6a6;
-  margin: 10px 0;
+  margin: 5px 0;
 }
 @media (min-width: 600px) {
   /* line 97, ../sass/_common.scss */
   small, .blog__back {
     font-size: 0.6rem;
     line-height: 0.9rem;
+    margin: 10px 0;
   }
 }
 
-/* line 113, ../sass/_common.scss */
+/* line 114, ../sass/_common.scss */
 a {
   color: #1b7ce3;
   text-decoration: none;
 }
-/* line 116, ../sass/_common.scss */
+/* line 117, ../sass/_common.scss */
 a.no-highlight {
   color: inherit;
 }
 
-/* line 121, ../sass/_common.scss */
+/* line 122, ../sass/_common.scss */
 div {
   position: relative;
 }
 
-/* line 125, ../sass/_common.scss */
+/* line 126, ../sass/_common.scss */
 img, .image, .image--full, .image--center, .image--filter, .insta-filler, .insta--photo {
   max-width: 100%;
   height: auto !important;
 }
 
-/* line 130, ../sass/_common.scss */
+/* line 131, ../sass/_common.scss */
 .clearfix {
   overflow: hidden;
   *zoom: 1;
 }
 
-/* line 134, ../sass/_common.scss */
+/* line 135, ../sass/_common.scss */
 .no-margin {
   margin: 0 !important;
 }
 
-/* line 138, ../sass/_common.scss */
+/* line 139, ../sass/_common.scss */
 .margin {
   margin: 40px 0;
 }
 
-/* line 142, ../sass/_common.scss */
+/* line 143, ../sass/_common.scss */
 .margin-top {
   margin-top: 40px;
 }
 
-/* line 146, ../sass/_common.scss */
+/* line 147, ../sass/_common.scss */
 .center {
   text-align: center;
 }
 
-/* line 150, ../sass/_common.scss */
+/* line 151, ../sass/_common.scss */
 .italic {
   font-style: italic;
 }
 
-/* line 154, ../sass/_common.scss */
+/* line 155, ../sass/_common.scss */
 .inline {
   display: inline;
 }
 
-/* line 158, ../sass/_common.scss */
+/* line 159, ../sass/_common.scss */
 small, .blog__back {
   white-space: pre;
   /* CSS 2.0 */
@@ -394,6 +395,23 @@ small, .blog__back {
   margin-bottom: 20px;
   padding: 5px 20px;
   background-color: #1f1f1f;
+}
+
+/* line 76, ../sass/_section.scss */
+.section--meta.stuck {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  transform: translateY(-100%);
+  transition: 0.2s transform cubic-bezier(0.3, 0.73, 0.3, 0.74);
+  background-color: rgba(31, 31, 31, 0.95);
+}
+
+/* line 87, ../sass/_section.scss */
+body.down .section--meta.stuck {
+  transform: translateY(0);
 }
 
 /* line 5, ../sass/_images.scss */
@@ -812,7 +830,6 @@ strong {
 /* line 115, ../sass/_blog.scss */
 .blog__back {
   text-align: center;
-  margin-bottom: 15px;
 }
 @media (min-width: 600px) {
   /* line 115, ../sass/_blog.scss */
@@ -826,7 +843,7 @@ strong {
     text-align: left;
   }
 }
-/* line 130, ../sass/_blog.scss */
+/* line 129, ../sass/_blog.scss */
 .blog__back::before {
   display: inline-block;
   position: relative;
