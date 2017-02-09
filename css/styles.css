@@ -857,3 +857,47 @@ strong {
   border-right: 6px solid;
   content: " ";
 }
+
+/* line 1, ../sass/_list.scss */
+.list__item {
+  margin-bottom: 4em;
+}
+@media (min-width: 600px) {
+  /* line 1, ../sass/_list.scss */
+  .list__item {
+    margin-bottom: 6em;
+  }
+}
+
+/* line 9, ../sass/_list.scss */
+.list__title {
+  margin: 15px 0;
+  letter-spacing: 0.25px;
+}
+/* line 12, ../sass/_list.scss */
+.list__title a {
+  color: #0F457F;
+}
+
+/* line 17, ../sass/_list.scss */
+.list__image {
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: 80% center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+@media (min-width: 600px) {
+  /* line 17, ../sass/_list.scss */
+  .list__image {
+    height: 200px;
+    background-position: right center;
+  }
+}
+
+/* line 32, ../sass/_list.scss */
+.list__more {
+  text-align: right;
+}
