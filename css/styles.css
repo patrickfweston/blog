@@ -304,6 +304,23 @@ small, .blog__back {
   /* IE 5+ */
 }
 
+/* line 170, ../sass/_common.scss */
+.button {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #1b7ce3;
+  color: #fff;
+  border-radius: 5px;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+/* line 177, ../sass/_common.scss */
+.button:hover {
+  background-color: #0F457F;
+}
+
 /* line 1, ../sass/_section.scss */
 .section, .section--title, .section--inverse, .section--wrapper, .section--wrapper--title {
   position: relative;
