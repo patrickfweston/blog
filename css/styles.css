@@ -255,36 +255,45 @@ img, .image, .image--full, .image--center, .image--filter, .insta-filler, .insta
 }
 
 /* line 135, ../sass/_common.scss */
+.element-invisible {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+/* line 143, ../sass/_common.scss */
 .no-margin {
   margin: 0 !important;
 }
 
-/* line 139, ../sass/_common.scss */
+/* line 147, ../sass/_common.scss */
 .margin {
   margin: 40px 0;
 }
 
-/* line 143, ../sass/_common.scss */
+/* line 151, ../sass/_common.scss */
 .margin-top {
   margin-top: 40px;
 }
 
-/* line 147, ../sass/_common.scss */
+/* line 155, ../sass/_common.scss */
 .center {
   text-align: center;
 }
 
-/* line 151, ../sass/_common.scss */
+/* line 159, ../sass/_common.scss */
 .italic {
   font-style: italic;
 }
 
-/* line 155, ../sass/_common.scss */
+/* line 163, ../sass/_common.scss */
 .inline {
   display: inline;
 }
 
-/* line 159, ../sass/_common.scss */
+/* line 167, ../sass/_common.scss */
 small, .blog__back {
   white-space: pre;
   /* CSS 2.0 */
@@ -304,7 +313,7 @@ small, .blog__back {
   /* IE 5+ */
 }
 
-/* line 170, ../sass/_common.scss */
+/* line 178, ../sass/_common.scss */
 .button {
   display: inline-block;
   padding: 5px 10px;
@@ -316,7 +325,7 @@ small, .blog__back {
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-/* line 177, ../sass/_common.scss */
+/* line 185, ../sass/_common.scss */
 .button:hover {
   background-color: #0F457F;
 }
@@ -362,7 +371,7 @@ small, .blog__back {
   max-width: auto;
   position: absolute;
   display: block;
-  top: 40px;
+  top: 80px;
   left: 0;
   right: 0;
   margin: 0 auto;
@@ -599,63 +608,90 @@ body.down .section--meta.stuck {
 
 /* line 1, ../sass/_components.scss */
 .social {
-  margin-top: 10px;
-  font-size: 2.5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  margin: 0.25em 0 0 0.25em;
+  font-size: 2rem;
 }
-/* line 4, ../sass/_components.scss */
+/* line 9, ../sass/_components.scss */
 .social a {
+  display: inline-block;
   color: #fff;
 }
 
-/* line 9, ../sass/_components.scss */
+/* line 15, ../sass/_components.scss */
+.menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  margin: 1rem 1rem 0 0;
+  font-size: 1.25rem;
+  font-family: "Oswald", "Helevetica", "Helevetica Neue", "Arial";
+  text-transform: uppercase;
+}
+/* line 25, ../sass/_components.scss */
+.menu a {
+  color: #fff;
+  margin-left: 0.75rem;
+  transition: all 0.125s ease-in-out;
+}
+/* line 30, ../sass/_components.scss */
+.menu a:hover {
+  color: #1b7ce3;
+}
+
+/* line 36, ../sass/_components.scss */
 p.resume {
   margin-top: 20px;
 }
 
-/* line 13, ../sass/_components.scss */
+/* line 40, ../sass/_components.scss */
 .insta-filler {
   height: 100%;
 }
 
-/* line 17, ../sass/_components.scss */
+/* line 44, ../sass/_components.scss */
 .insta-filler {
   position: relative;
   padding-bottom: 33.33333%;
   height: auto;
 }
-/* line 23, ../sass/_components.scss */
+/* line 50, ../sass/_components.scss */
 .insta-filler:nth-of-type(1) {
   background-color: #0F457F;
 }
-/* line 26, ../sass/_components.scss */
+/* line 53, ../sass/_components.scss */
 .insta-filler:nth-of-type(2) {
   background-color: #041324;
 }
-/* line 29, ../sass/_components.scss */
+/* line 56, ../sass/_components.scss */
 .insta-filler:nth-of-type(3) {
   background-color: #145ead;
 }
-/* line 32, ../sass/_components.scss */
+/* line 59, ../sass/_components.scss */
 .insta-filler:nth-of-type(4) {
   background-color: #79ace1;
 }
-/* line 35, ../sass/_components.scss */
+/* line 62, ../sass/_components.scss */
 .insta-filler:nth-of-type(5) {
   background-color: #A3C6EA;
 }
-/* line 38, ../sass/_components.scss */
+/* line 65, ../sass/_components.scss */
 .insta-filler:nth-of-type(6) {
   background-color: #041324;
 }
-/* line 41, ../sass/_components.scss */
+/* line 68, ../sass/_components.scss */
 .insta-filler:nth-of-type(7) {
   background-color: #1b7ce3;
 }
-/* line 44, ../sass/_components.scss */
+/* line 71, ../sass/_components.scss */
 .insta-filler:nth-of-type(8) {
   background-color: #0F457F;
 }
-/* line 47, ../sass/_components.scss */
+/* line 74, ../sass/_components.scss */
 .insta-filler:nth-of-type(9) {
   background-color: #1563b6;
 }
@@ -879,6 +915,28 @@ strong {
 }
 
 /* line 147, ../sass/_blog.scss */
+.blog-menu {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", "Helevetica", "Helevetica Neue", "Arial";
+  text-transform: uppercase;
+}
+/* line 153, ../sass/_blog.scss */
+.blog-menu li {
+  display: inline-block;
+  margin-right: 0.5rem;
+  list-style-type: none;
+}
+/* line 159, ../sass/_blog.scss */
+.blog-menu a {
+  color: #0F457F;
+}
+/* line 162, ../sass/_blog.scss */
+.blog-menu a:hover {
+  color: #1b7ce3;
+}
+
+/* line 168, ../sass/_blog.scss */
 .section--content-wrapper {
   margin-top: 450px;
   background: #fff;
