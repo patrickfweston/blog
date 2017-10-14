@@ -146,27 +146,38 @@ h2 {
 
 /* line 47, ../sass/_common.scss */
 h3 {
-  font-size: 1.33rem;
-  margin: 0.5em 0;
+  font-family: "Oswald", "Helevetica", "Helevetica Neue", "Arial";
+  font-weight: normal;
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 0.5em;
+  letter-spacing: 1px;
+  color: #636363;
+}
+@media (min-width: 600px) {
+  /* line 47, ../sass/_common.scss */
+  h3 {
+    font-size: 1.5rem;
+  }
 }
 
-/* line 52, ../sass/_common.scss */
+/* line 60, ../sass/_common.scss */
 h4 {
   font-size: 1.1rem;
   font-weight: normal;
   line-height: 1.2em;
 }
 
-/* line 58, ../sass/_common.scss */
+/* line 66, ../sass/_common.scss */
 p {
   font-size: 1.25rem;
   line-height: 2rem;
 }
-/* line 61, ../sass/_common.scss */
+/* line 69, ../sass/_common.scss */
 p + p {
   margin-top: 1rem;
 }
-/* line 64, ../sass/_common.scss */
+/* line 72, ../sass/_common.scss */
 p.lede {
   font-family: "Oswald", "Helevetica", "Helevetica Neue", "Arial";
   font-size: 1.2rem;
@@ -175,7 +186,7 @@ p.lede {
   margin: 0 auto 40px auto;
   color: #0b345f;
 }
-/* line 72, ../sass/_common.scss */
+/* line 80, ../sass/_common.scss */
 p.columuns {
   -moz-column-count: 2;
   -webkit-column-count: 2;
@@ -185,19 +196,19 @@ p.columuns {
   column-gap: 40px;
 }
 
-/* line 78, ../sass/_common.scss */
+/* line 86, ../sass/_common.scss */
 ul {
   padding-left: 40px;
 }
 
-/* line 82, ../sass/_common.scss */
+/* line 90, ../sass/_common.scss */
 li {
   font-size: 1.25rem;
   line-height: 2rem;
   list-style-type: disc;
 }
 
-/* line 88, ../sass/_common.scss */
+/* line 96, ../sass/_common.scss */
 .drop-caps {
   float: left;
   margin: 0px 6px 0 0;
@@ -207,7 +218,7 @@ li {
   font-family: bodonixtregular;
 }
 
-/* line 97, ../sass/_common.scss */
+/* line 105, ../sass/_common.scss */
 small, .blog__back {
   display: block;
   text-transform: uppercase;
@@ -219,7 +230,7 @@ small, .blog__back {
   margin: 5px 0;
 }
 @media (min-width: 600px) {
-  /* line 97, ../sass/_common.scss */
+  /* line 105, ../sass/_common.scss */
   small, .blog__back {
     font-size: 0.6rem;
     line-height: 0.9rem;
@@ -227,34 +238,34 @@ small, .blog__back {
   }
 }
 
-/* line 114, ../sass/_common.scss */
+/* line 122, ../sass/_common.scss */
 a {
   color: #1b7ce3;
   text-decoration: none;
 }
-/* line 117, ../sass/_common.scss */
+/* line 125, ../sass/_common.scss */
 a.no-highlight {
   color: inherit;
 }
 
-/* line 122, ../sass/_common.scss */
+/* line 130, ../sass/_common.scss */
 div {
   position: relative;
 }
 
-/* line 126, ../sass/_common.scss */
+/* line 134, ../sass/_common.scss */
 img, .image, .image--full, .image--center, .image--filter, .insta-filler, .insta--photo {
   max-width: 100%;
   height: auto !important;
 }
 
-/* line 131, ../sass/_common.scss */
+/* line 139, ../sass/_common.scss */
 .clearfix {
   overflow: hidden;
   *zoom: 1;
 }
 
-/* line 135, ../sass/_common.scss */
+/* line 143, ../sass/_common.scss */
 .element-invisible {
   position: absolute !important;
   width: 1px;
@@ -263,37 +274,37 @@ img, .image, .image--full, .image--center, .image--filter, .insta-filler, .insta
   clip: rect(1px, 1px, 1px, 1px);
 }
 
-/* line 143, ../sass/_common.scss */
+/* line 151, ../sass/_common.scss */
 .no-margin {
   margin: 0 !important;
 }
 
-/* line 147, ../sass/_common.scss */
+/* line 155, ../sass/_common.scss */
 .margin {
   margin: 40px 0;
 }
 
-/* line 151, ../sass/_common.scss */
+/* line 159, ../sass/_common.scss */
 .margin-top {
   margin-top: 40px;
 }
 
-/* line 155, ../sass/_common.scss */
+/* line 163, ../sass/_common.scss */
 .center {
   text-align: center;
 }
 
-/* line 159, ../sass/_common.scss */
+/* line 167, ../sass/_common.scss */
 .italic {
   font-style: italic;
 }
 
-/* line 163, ../sass/_common.scss */
+/* line 171, ../sass/_common.scss */
 .inline {
   display: inline;
 }
 
-/* line 167, ../sass/_common.scss */
+/* line 175, ../sass/_common.scss */
 small, .blog__back {
   white-space: pre;
   /* CSS 2.0 */
@@ -313,7 +324,7 @@ small, .blog__back {
   /* IE 5+ */
 }
 
-/* line 178, ../sass/_common.scss */
+/* line 186, ../sass/_common.scss */
 .button {
   display: inline-block;
   padding: 5px 10px;
@@ -325,7 +336,7 @@ small, .blog__back {
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-/* line 185, ../sass/_common.scss */
+/* line 193, ../sass/_common.scss */
 .button:hover {
   background-color: #0F457F;
 }
@@ -610,9 +621,9 @@ body.down .section--meta.stuck {
 .social {
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
   z-index: 10;
-  margin: 0.25em 0 0 0.25em;
+  margin: 0.3em 0.3em 0 0;
   font-size: 2rem;
 }
 /* line 9, ../sass/_components.scss */
@@ -625,9 +636,9 @@ body.down .section--meta.stuck {
 .menu {
   position: absolute;
   top: 0;
-  right: 0;
+  left: 0;
   z-index: 10;
-  margin: 1rem 1rem 0 0;
+  margin: 1rem 0 0 1rem;
   font-size: 1.25rem;
   font-family: "Oswald", "Helevetica", "Helevetica Neue", "Arial";
   text-transform: uppercase;
@@ -635,11 +646,11 @@ body.down .section--meta.stuck {
 /* line 25, ../sass/_components.scss */
 .menu a {
   color: #fff;
-  margin-left: 0.75rem;
+  margin-right: 0.75rem;
   transition: all 0.125s ease-in-out;
 }
 /* line 30, ../sass/_components.scss */
-.menu a:hover {
+.menu a:hover, .menu a.active {
   color: #1b7ce3;
 }
 
@@ -930,13 +941,14 @@ strong {
 /* line 159, ../sass/_blog.scss */
 .blog-menu a {
   color: #0F457F;
+  transition: all 0.125s ease-in-out;
 }
-/* line 162, ../sass/_blog.scss */
-.blog-menu a:hover {
+/* line 163, ../sass/_blog.scss */
+.blog-menu a:hover, .blog-menu a.active {
   color: #1b7ce3;
 }
 
-/* line 168, ../sass/_blog.scss */
+/* line 169, ../sass/_blog.scss */
 .section--content-wrapper {
   margin-top: 450px;
   background: #fff;

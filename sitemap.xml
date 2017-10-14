@@ -38,7 +38,19 @@
   </url>
   
   <url>
+    <loc>http://blog.patrickfweston.com/categories/humanity/</loc>
+    <lastmod>2015-11-17T20:11:46-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.patrickfweston.com/</loc>
+    <lastmod>2017-10-10T22:57:49-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.patrickfweston.com/categories/personal/</loc>
     <lastmod>2017-10-10T22:57:49-06:00</lastmod>
     <priority>0</priority>
   </url>
@@ -50,7 +62,8 @@
   </url>
   
   <url>
-    <loc>http://blog.patrickfweston.com/tags/</loc>
+    <loc>http://blog.patrickfweston.com/categories/travel/</loc>
+    <lastmod>2017-09-22T19:48:46-06:00</lastmod>
     <priority>0</priority>
   </url>
   
