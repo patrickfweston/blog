@@ -766,45 +766,41 @@ blockquote {
   position: relative;
   display: block;
   width: 100%;
-  margin: 1.5em auto;
+  margin: 1.5em 0;
   padding: 1em;
-  border-top: 1px solid #0F457F;
-  border-bottom: 1px solid #0F457F;
-  text-align: center;
+  border-left: 15px solid #0a2c51;
+  background-color: #f6f6f8;
+  color: #0a2c51;
+  text-align: left;
   font-size: 1.33rem;
   line-height: 2rem;
   font-style: italic;
 }
-@media (min-width: 600px) {
+/* line 15, ../sass/_blog.scss */
+blockquote p {
+  font-size: 1.5rem;
+  line-height: 2.33rem;
+}
+@media (min-width: 940px) {
   /* line 1, ../sass/_blog.scss */
   blockquote {
-    margin: 1.5em auto;
-    width: 80%;
+    border-left: 0;
+    padding: 1em 1em 1em 0;
+  }
+  /* line 24, ../sass/_blog.scss */
+  blockquote:before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: -45px;
+    width: 30px;
+    background: #f6f6f8;
+    height: 100%;
+    border-left: 15px solid #0a2c51;
   }
 }
-/* line 19, ../sass/_blog.scss */
-blockquote:before, blockquote:after {
-  position: absolute;
-  content: '"';
-  top: -8px;
-  left: 5%;
-  height: 20px;
-  width: 30px;
-  font-family: "Oswald", "Helevetica", "Helevetica Neue", "Arial";
-  font-size: 2rem;
-  font-style: normal;
-  color: #1b7ce3;
-  background-color: #FFF;
-}
-/* line 32, ../sass/_blog.scss */
-blockquote:after {
-  top: auto;
-  left: auto;
-  bottom: -12px;
-  right: 5%;
-}
 
-/* line 40, ../sass/_blog.scss */
+/* line 37, ../sass/_blog.scss */
 .blog__image--cover {
   position: fixed;
   top: 0;
@@ -820,13 +816,13 @@ blockquote:after {
   background-size: cover;
 }
 @media (min-width: 600px) {
-  /* line 40, ../sass/_blog.scss */
+  /* line 37, ../sass/_blog.scss */
   .blog__image--cover {
     background-position: right center;
   }
 }
 
-/* line 59, ../sass/_blog.scss */
+/* line 56, ../sass/_blog.scss */
 .blog__title {
   position: absolute;
   top: -100%;
@@ -835,7 +831,7 @@ blockquote:after {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.15);
 }
-/* line 66, ../sass/_blog.scss */
+/* line 63, ../sass/_blog.scss */
 .blog__title h1 {
   margin-bottom: 20px;
   color: #fff;
@@ -847,7 +843,7 @@ blockquote:after {
   letter-spacing: 1px;
 }
 
-/* line 78, ../sass/_blog.scss */
+/* line 75, ../sass/_blog.scss */
 .blog__title-wrapper {
   position: absolute;
   bottom: 0;
@@ -855,21 +851,21 @@ blockquote:after {
   margin-bottom: 1em;
 }
 
-/* line 85, ../sass/_blog.scss */
+/* line 82, ../sass/_blog.scss */
 .blog__image--pull-right {
   float: right;
   padding: 0px 0 0px 1em;
   max-width: 300px;
 }
 
-/* line 91, ../sass/_blog.scss */
+/* line 88, ../sass/_blog.scss */
 .blog__image--pull-left {
   float: left;
   padding: 0px 1em 0px 0;
   max-width: 300px;
 }
 
-/* line 97, ../sass/_blog.scss */
+/* line 94, ../sass/_blog.scss */
 .blog__image--center {
   display: block;
   margin: 0 auto;
@@ -879,27 +875,27 @@ blockquote:after {
   padding-top: 2em;
 }
 
-/* line 106, ../sass/_blog.scss */
+/* line 103, ../sass/_blog.scss */
 .caption {
   padding-bottom: 2em;
 }
 
-/* line 110, ../sass/_blog.scss */
+/* line 107, ../sass/_blog.scss */
 em {
   font-style: italic;
 }
 
-/* line 114, ../sass/_blog.scss */
+/* line 111, ../sass/_blog.scss */
 strong {
   font-weight: bold;
 }
 
-/* line 118, ../sass/_blog.scss */
+/* line 115, ../sass/_blog.scss */
 .blog__back {
   text-align: center;
 }
 @media (min-width: 600px) {
-  /* line 118, ../sass/_blog.scss */
+  /* line 115, ../sass/_blog.scss */
   .blog__back {
     display: block;
     position: absolute;
@@ -910,7 +906,7 @@ strong {
     text-align: left;
   }
 }
-/* line 132, ../sass/_blog.scss */
+/* line 129, ../sass/_blog.scss */
 .blog__back::before {
   display: inline-block;
   position: relative;
@@ -925,33 +921,45 @@ strong {
   content: " ";
 }
 
-/* line 147, ../sass/_blog.scss */
+/* line 144, ../sass/_blog.scss */
 .blog-menu {
   margin: 0;
   padding: 0;
   font-family: "Oswald", "Helevetica", "Helevetica Neue", "Arial";
   text-transform: uppercase;
 }
-/* line 153, ../sass/_blog.scss */
+/* line 150, ../sass/_blog.scss */
 .blog-menu li {
   display: inline-block;
   margin-right: 0.5rem;
   list-style-type: none;
 }
-/* line 159, ../sass/_blog.scss */
+/* line 156, ../sass/_blog.scss */
 .blog-menu a {
   color: #0F457F;
   transition: all 0.125s ease-in-out;
 }
-/* line 163, ../sass/_blog.scss */
+/* line 160, ../sass/_blog.scss */
 .blog-menu a:hover, .blog-menu a.active {
   color: #1b7ce3;
 }
 
-/* line 169, ../sass/_blog.scss */
+/* line 166, ../sass/_blog.scss */
 .section--content-wrapper {
   margin-top: 450px;
   background: #fff;
+}
+
+/* line 172, ../sass/_blog.scss */
+.down .section.section--meta .progress, .down .section--meta.section--title .progress, .down .section--meta.section--inverse .progress, .down .section--meta.section--wrapper .progress, .down .section--meta.section--wrapper--title .progress {
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  height: 5px;
+  width: 16%;
+  background-color: #0F457F;
+  opacity: 0.95;
+  transition: 0.05s all ease-in-out;
 }
 
 /* line 1, ../sass/_list.scss */
