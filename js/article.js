@@ -9,22 +9,20 @@
   });
 })();
 
-// From: https://css-tricks.com/reading-position-indicator/
 (function() {
   $(document).on('ready', function() {
-    var winHeight = $(window).height(),
-        docHeight = $(document).height(),
+    var $content = $('.section--content'),
+        contentTop = $content.offset().top,
+        contentLength = $content.outerHeight(),
         progressBar = $('.progress'),
-        max, value, barWidth, percentageViewed;
-
-    /* Set the max scrollable area */
-    max = (docHeight - winHeight) / 100;
+        halfWindow = $(window).height() / 2;
 
     $(document).on('scroll', function(){
-       value = $(window).scrollTop();
-       percentageViewed = value / max;
-       barWidth = percentageViewed > 100 ? 100 : percentageViewed;
-       progressBar.css('width', barWidth + '%');
+      var offsetTop = $(window).scrollTop() - contentTop + halfWindow;
+      var percentageViewed = (offsetTop / contentLength) * 100;
+      barWidth = percentageViewed > 100 ? 100 : percentageViewed;
+
+      progressBar.css('width', barWidth + '%');
     });
   });
 })();
