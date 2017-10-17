@@ -1005,6 +1005,12 @@ strong {
   font-size: 1rem;
   line-height: 1.3rem;
 }
+@media (min-width: 600px) {
+  /* line 187, ../sass/_blog.scss */
+  .related-content__item {
+    margin-bottom: 0.5rem;
+  }
+}
 
 /* line 1, ../sass/_list.scss */
 .list__item {
