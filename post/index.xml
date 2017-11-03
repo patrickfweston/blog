@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Patrick Weston</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Oct 2017 22:57:49 -0600</lastBuildDate>
+    <lastBuildDate>Fri, 03 Nov 2017 14:24:49 -0600</lastBuildDate>
     
 	<atom:link href="http://blog.patrickfweston.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Restore iPhone X from iPhone with iOS 11.2 Beta</title>
+      <link>http://blog.patrickfweston.com/post/iphonex-ios-beta/</link>
+      <pubDate>Fri, 03 Nov 2017 14:24:49 -0600</pubDate>
+      
+      <guid>http://blog.patrickfweston.com/post/iphonex-ios-beta/</guid>
+      <description>Was your iPhone on the iOS Beta program and you upgraded to iOS 11.2 before getting your iPhone X? Are you now prevented from restoring your old iPhone to your shiny new iPhone X? Follow these steps and you&amp;rsquo;ll be ready to go in no time.
+Note: This worked for an iPhone 6s but should work for any iPhone. You might try looking for an ISPW file specific to your model of phone.</description>
+    </item>
     
     <item>
       <title>Worth my Weight</title>
@@ -47,7 +57,6 @@ There were two reasons for this:
       
       <guid>http://blog.patrickfweston.com/post/traveling-with-yourself/</guid>
       <description>This week, I took a trip to Boston for work. Flight prices were cheaper to return on Sunday rather than Friday or Saturday, so I decided to make a trip out out of it. I also have a life goal of visiting all 50 U.S. States, and I was missing Vermont. I figured if I were that close I should take advantage of the opportunity.
-
 Boston I was in Boston from Wednesday through Friday, and I caught the string of extremely warm February weather.</description>
     </item>
     
