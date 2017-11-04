@@ -2,7 +2,8 @@
 <head>
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
-  <link href="http://blog.patrickfweston.com/css/styles.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <link href="http://blog.patrickfweston.com/css/styles.css" media="screen, projection, print" rel="stylesheet" type="text/css" />
+  <link href="http://blog.patrickfweston.com/css/print.css" media="print" rel="stylesheet" type="text/css" />
   <link href='http://fonts.googleapis.com/css?family=Oswald:300,400,700' rel='stylesheet' type='text/css' />
   <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
   <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -33,6 +34,9 @@
     <div class="blog__title">
       <div class="blog__title-wrapper">
         <h1>The Race to 50 States</h1>
+        <div class="print-only" style="display: none; text-align: center;">
+          <p>Patrick Weston &mdash; 09-19-2017</p>
+        </div>
       </div>
     </div>
     <section class="section section--meta unstuck">
@@ -50,8 +54,9 @@
     </section>
     <section class="section section--content">
       <div class="section--wrapper">
+        
         <p class="lede">I&#39;ve always had a life goal of visiting all 50 States. My recent attempts at accomplishing this.</p>
-
+        
         <div class="tldr__picker">
           <label class="tldr__label">
             <input type="checkbox" class="tldr__checkbox">
@@ -162,7 +167,7 @@ As a result, I&rsquo;ve been to more obscure places like Morgantown, WV or Evans
       </div>
   	</section>
 
-    <section class="section clearfix">
+    <section class="section clearfix" id="related-posts">
       <div class="section--wrapper">
         
           
@@ -190,7 +195,7 @@ As a result, I&rsquo;ve been to more obscure places like Morgantown, WV or Evans
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" id="comments">
       <div class="section--wrapper">
         <div id="disqus_thread"></div>
 <script>
@@ -210,7 +215,7 @@ s.setAttribute('data-timestamp', +new Date());
       </div>
     </section>
 
-    <section class="section section--inverse">
+    <section class="section section--inverse" id="photo-credit">
       <small>Skyline of Montréal from Mont-Royal Photo Credit: <a href="http://www.patrickfweston.com">Patrick Weston</a></small>
     </section>
   </div>

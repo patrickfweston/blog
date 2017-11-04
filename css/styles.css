@@ -217,12 +217,17 @@ li {
 }
 
 /* line 103, ../sass/_common.scss */
+ol {
+  margin: 1.25em 0;
+}
+/* line 105, ../sass/_common.scss */
 ol li {
   margin-top: 1em;
+  margin-left: 2em;
   list-style-type: decimal;
 }
 
-/* line 108, ../sass/_common.scss */
+/* line 112, ../sass/_common.scss */
 .drop-caps {
   float: left;
   margin: 0px 6px 0 0;
@@ -232,7 +237,7 @@ ol li {
   font-family: bodonixtregular;
 }
 
-/* line 117, ../sass/_common.scss */
+/* line 121, ../sass/_common.scss */
 small, .blog__back {
   display: block;
   text-transform: uppercase;
@@ -244,7 +249,7 @@ small, .blog__back {
   margin: 5px 0;
 }
 @media (min-width: 600px) {
-  /* line 117, ../sass/_common.scss */
+  /* line 121, ../sass/_common.scss */
   small, .blog__back {
     font-size: 0.6rem;
     line-height: 0.9rem;
@@ -252,34 +257,34 @@ small, .blog__back {
   }
 }
 
-/* line 134, ../sass/_common.scss */
+/* line 138, ../sass/_common.scss */
 a {
   color: #1b7ce3;
   text-decoration: none;
 }
-/* line 137, ../sass/_common.scss */
+/* line 141, ../sass/_common.scss */
 a.no-highlight {
   color: inherit;
 }
 
-/* line 142, ../sass/_common.scss */
+/* line 146, ../sass/_common.scss */
 div {
   position: relative;
 }
 
-/* line 146, ../sass/_common.scss */
+/* line 150, ../sass/_common.scss */
 img, .image, .image--full, .image--center, .image--filter, .insta-filler, .insta--photo {
   max-width: 100%;
   height: auto !important;
 }
 
-/* line 151, ../sass/_common.scss */
+/* line 155, ../sass/_common.scss */
 .clearfix {
   overflow: hidden;
   *zoom: 1;
 }
 
-/* line 155, ../sass/_common.scss */
+/* line 159, ../sass/_common.scss */
 .element-invisible {
   position: absolute !important;
   width: 1px;
@@ -288,37 +293,37 @@ img, .image, .image--full, .image--center, .image--filter, .insta-filler, .insta
   clip: rect(1px, 1px, 1px, 1px);
 }
 
-/* line 163, ../sass/_common.scss */
+/* line 167, ../sass/_common.scss */
 .no-margin {
   margin: 0 !important;
 }
 
-/* line 167, ../sass/_common.scss */
+/* line 171, ../sass/_common.scss */
 .margin {
   margin: 40px 0;
 }
 
-/* line 171, ../sass/_common.scss */
+/* line 175, ../sass/_common.scss */
 .margin-top {
   margin-top: 40px;
 }
 
-/* line 175, ../sass/_common.scss */
+/* line 179, ../sass/_common.scss */
 .center {
   text-align: center;
 }
 
-/* line 179, ../sass/_common.scss */
+/* line 183, ../sass/_common.scss */
 .italic {
   font-style: italic;
 }
 
-/* line 183, ../sass/_common.scss */
+/* line 187, ../sass/_common.scss */
 .inline {
   display: inline;
 }
 
-/* line 187, ../sass/_common.scss */
+/* line 191, ../sass/_common.scss */
 small, .blog__back {
   white-space: pre;
   /* CSS 2.0 */
@@ -338,7 +343,7 @@ small, .blog__back {
   /* IE 5+ */
 }
 
-/* line 198, ../sass/_common.scss */
+/* line 202, ../sass/_common.scss */
 .button {
   display: inline-block;
   padding: 5px 10px;
@@ -350,7 +355,7 @@ small, .blog__back {
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-/* line 205, ../sass/_common.scss */
+/* line 209, ../sass/_common.scss */
 .button:hover {
   background-color: #0F457F;
 }

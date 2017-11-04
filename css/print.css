@@ -1,0 +1,42 @@
+html, body {
+  border: 1px solid white;
+  height: 99%;
+  page-break-after: avoid;
+  page-break-before: avoid;
+}
+
+* {
+  font-size: 18px !important;
+  line-height: 28px !important;
+}
+
+.print-only {
+  display: block !important
+}
+
+#photo-credit,
+#related-posts,
+#comments,
+.section--meta,
+.blog__image--cover {
+  display: none !important;
+}
+
+.section--content-wrapper {
+  margin: 0;
+}
+
+.blog__title,
+.blog__title-wrapper {
+  display: block;
+  position: relative;
+  height: auto;
+  background: none;
+}
+
+.blog__title h1 {
+  font-size: 24px !important;
+  color: #000;
+  margin: 0 0 10px 0;
+  text-shadow: none;
+}
